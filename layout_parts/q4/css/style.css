@@ -15,50 +15,36 @@
   margin-top: 20px;
   width: 100%;
 }
-
-.q4_contents_cell_pink {
+.q4_contents_cell {
   display: table-cell;
+  text-align: center;
+  padding: 20px 0;
+}
+.pink {
   width: 100px;
   background-color: #fdc8b8;
-  text-align: center;
-  padding: 20px 0;
 }
 
-.q4_contents_cell_purple {
-  display: table-cell;
+.purple {
   background-color: #e0abd9;
-  text-align: center;
-  padding: 20px 0;
 }
 
-.q4_contents_cell_blue {
-  display: table-cell;
+.blue {
   width: 100px;
   background-color: #b6d8ed;
-  text-align: center;
-  padding: 20px 0;
 }
 
-.q4_contents_cell_yellow {
-  display: table-cell;
+.yellow {
   background-color: #e5d32e;
-  text-align: center;
-  padding: 20px 0;
 }
 
-.q4_contents_cell_red {
-  display: table-cell;
+.red {
   background-color: #ec8f9a;
-  text-align: center;
-  padding: 20px 0;
 }
 
-.q4_contents_cell_green {
-  display: table-cell;
+.green {
   width: 500px;
   background-color: #8fdcad;
-  text-align: center;
-  padding: 20px 0;
 }
 /* 回答はここに書いてね */
 

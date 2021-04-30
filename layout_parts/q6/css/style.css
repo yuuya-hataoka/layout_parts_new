@@ -45,7 +45,7 @@
   background-color: #fff;
 }
 
-.q6_box_position_right {
+.q6_box_position {
   position: relative;
 }
 .q6_text_position_right {
@@ -55,10 +55,6 @@
   bottom: 0;
   left: 0;
   margin: auto;
-}
-
-.q6_box_position_left {
-  position: relative;
 }
 
 .q6_text_position_left {

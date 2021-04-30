@@ -8,21 +8,22 @@
   position: relative;
 }
 
-.q5_contents_box_8 {
-  position: absolute;
-  top: 120px;
-  left: 120px;
+.item {
   width: 100px;
   height: 100px;
-  background-color: #de70cf;
-  z-index: 8;
   font-size: 30px;
   line-height: 100px;
   text-align: center;
-  
+}
+.q5_8 {
+  position: absolute;
+  top: 120px;
+  left: 120px;
+  background-color: #de70cf;
+  z-index: 8;
 }
 
-.q5_contents_box_8::after {
+.q5_8::after {
   position: absolute;
   top: 0px;
   right: 0px;
@@ -32,106 +33,66 @@
   content: "";
 }
 
-.q5_contents_box_5 {
+.q5_5 {
   position: absolute;
   top: 360px;
   left: 200px;
-  width: 100px;
-  height: 100px;
   background-color: #9fd6d2;
   z-index: 5;
-  font-size: 30px;
-  line-height: 100px;
-  text-align: center;
 }
 
-.q5_contents_box_1 {
+.q5_1 {
   position: absolute;
   top: 40px;
   left: 200px;
-  width: 100px;
-  height: 100px;
   background-color: #ffefd3;
-  font-size: 30px;
-  line-height: 100px;
-  text-align: center;
 }
 
-.q5_contents_box_7 {
+.q5_7 {
   position: absolute;
   top: 200px;
   left: 40px;
-  width: 100px;
-  height: 100px;
   background-color: #deae70;
   z-index: 7;
-  font-size: 30px;
-  line-height: 100px;
-  text-align: center;
 }
 
-.q5_contents_box_4 {
+.q5_4 {
   position: absolute;
   top: 280px;
   right: 120px;
-  width: 100px;
-  height: 100px;
   background-color: #8b7a5e;
   z-index: 4;
-  font-size: 30px;
-  line-height: 100px;
-  text-align: center;
 }
 
-.q5_contents_box_6 {
+.q5_6 {
   position: absolute;
   top: 280px;
   left: 120px;
-  width: 100px;
-  height: 100px;
   background-color: #fffee4;
   z-index: 6;
-  font-size: 30px;
-  line-height: 100px;
-  text-align: center;
 }
 
-.q5_contents_box_2 {
+.q5_2 {
   position: absolute;
   top: 120px;
   right: 120px;
-  width: 100px;
-  height: 100px;
   background-color: #7084de;
-  z-index: 6;
-  font-size: 30px;
-  line-height: 100px;
-  text-align: center;
+  z-index: 2;
 }
 
-.q5_contents_box_3 {
+.q5_3 {
   position: absolute;
   top: 200px;
   right: 40px;
-  width: 100px;
-  height: 100px;
   background-color: #d0ecea;
   z-index: 3;
-  font-size: 30px;
-  line-height: 100px;
-  text-align: center;
 }
 
-.q5_contents_box_9 {
+.q5_9 {
   position: fixed;
   top: 10px;
   left: 10px;
-  width: 100px;
-  height: 100px;
   background-color: #2b69a3;
-  font-size: 30px;
-  line-height: 100px;
-  text-align: center;
 }
 /* 回答はここに書いてね */
 

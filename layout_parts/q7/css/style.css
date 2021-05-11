@@ -1,5 +1,90 @@
 @charset "UTF-8";
 
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+.q7_box_float:first-child {
+  margin-left: 0;
+}
+
+.q7_box_float {
+  width: 225px;
+  float: left;
+  margin-left: 50px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.q7_inner_table {
+  display: table;
+}
+
+.q7_box_table_right {
+  display: table-cell;
+  width: 225px;
+  vertical-align: middle;
+}
+
+.q7_box_table_left {
+  display: table-cell;
+  width: 225px;
+  padding-left: 50px;
+}
+
+.q7_inner_inline {
+  font-size: 0;
+}
+.q7_box_inline_right {
+  display: inline-block;
+  width: 225px;
+  vertical-align: middle;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.q7_box_inline_left {
+  display: inline-block;
+  width: 225px;
+  margin-left: 50px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  font-size: 16px;
+}
+
+.q7_inner_flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.q7_box_flex {
+  box-sizing: border-box;
+  width: 225px;
+  vertical-align: middle;
+}
+
+.q7_inner_margin {
+  font-size: 0;
+}
+
+.q7_box_margin_right {
+  display: inline-block;
+  width: 300px;
+  vertical-align: top;
+  font-size: 16px;
+}
+
+.q7_box_margin_left {
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+  margin-left: -300px;
+  padding-left: 350px;
+  vertical-align: top;
+  font-size: 16px;
+}
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */

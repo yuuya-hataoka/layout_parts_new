@@ -1,5 +1,34 @@
 @charset "UTF-8";
 
+.q9_balloon {
+  position: relative;
+  margin: 0 auto;
+  padding: 20px;
+  border: 5px solid #222;
+  border-radius: 30px;
+  width: 500px;
+}
+
+.q9_balloon::before,
+.q9_balloon::after {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  content: "";
+}
+
+.q9_balloon::before {
+  bottom: -45px;
+  left: 30px;
+  border-top-color: #222;
+}
+
+.q9_balloon::after {
+  bottom: -38px;
+  left: 30px;
+  border-top-color: #fff;
+}
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */

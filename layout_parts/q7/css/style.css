@@ -21,30 +21,26 @@
   display: table;
 }
 
-.q7_box_table_right {
-  display: table-cell;
-  width: 225px;
-  vertical-align: middle;
+.q7_box_table:first-child {
+  padding-left: 0;
 }
 
-.q7_box_table_left {
+.q7_box_table {
   display: table-cell;
   width: 225px;
   padding-left: 50px;
+  vertical-align: middle;
 }
 
 .q7_inner_inline {
   font-size: 0;
 }
-.q7_box_inline_right {
-  display: inline-block;
-  width: 225px;
-  vertical-align: middle;
-  box-sizing: border-box;
-  font-size: 16px;
+
+.q7_box_inline:first-child {
+  margin-left: 0;
 }
 
-.q7_box_inline_left {
+.q7_box_inline {
   display: inline-block;
   width: 225px;
   margin-left: 50px;
